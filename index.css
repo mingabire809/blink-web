@@ -8,6 +8,7 @@
    align-items: center;
    position: sticky;
    top: 0;
+   z-index: 9999;
 }
 .title{
     font-weight: bolder;
@@ -22,8 +23,46 @@
 .welcome{
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    padding: 70px;
+    align-items: center;
+    align-content: center;
    
+}
+.animationphone{
+    
+    width: 50%;
+   
+}
+.phonecontainer{
+    background-color: rgba(255,200,1,255);
+  
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    
+   
+    
+}
+.dot{
+    background-color: rgba(255,200,1,255);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: auto;
+}
+.seconddot{
+    background-color: rgba(255,200,1,255);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: auto; 
+}
+.phone{
+    width: 800px;
+    height: auto;
+    
+    
+
 }
 .play{
     display: flex;
@@ -68,45 +107,92 @@
     padding-top: 10px;
 }
 .flashContent{
-    background-color: rgba(45,192,244,255);
-    height: 400px;
-    transition: 1s;
+    
+    width: 100%;
+    transition: 3s;
     margin-bottom: 50px;
     
 }
 .flashContent:hover{
     height: 350px;
-    transition: 1s;
+    transition: 3s;
     transform-origin: bottom;
+    background-size: cover;
 }
 
 .advertisement{
     background-color: rgba(228,228,228,255);
     height: 300px;
+    
 }
 
 .fresh{
     height: 470px;
     display: flex;
     justify-content: space-between;
+
 }
 .butchery{
     height: 100%;
     width: 48.5%;
     background-color: rgba(255,200,1,255);
     transition: 1s;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+    
+    overflow: hidden;
 }
 .butchery:hover{
     width: 49.5%;
     transition: 1s;
     transform-origin: right;
 }
+.beef{
+    width: 650px;
+    margin-top: 100px;
+    
+
+    
+    
+}
+.aroundbeef{
+    background-color: rgba(192,178,69,255);
+    border-radius: 100%;
+    width: 650px;
+    height: 750px;
+  
+    
+    
+
+}
 .drinks{
     height: 47%;
     background-color: rgba(255,200,1,255);
     width: 100%;
     transition: 1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
     
+    
+}
+.arounddrinks{
+    background-color: rgba(192,178,69,255);
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55%;
+}
+.juice{
+    width: 360px;
+  
+   margin-left: -120px;
 }
 .drinks:hover{
     height: 50%;
@@ -118,6 +204,11 @@
     background-color: rgba(255,200,1,255);
     width: 100%;
     transition: 1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
 
 }
 .snacks:hover{
@@ -127,12 +218,21 @@
 }
 .delivery{
     background-color: black;
-    height: 300px;
+    height: 200px;
     margin-top: 80px;
     padding: 80px;
 }
 .area{
     color: rgba(255,200,1,255);
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 30px;
+}
+.map{
+    display: flex;
+    
+
+}
+.nairobi{
+    height: auto;
+    width: 70%;
 }
