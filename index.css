@@ -9,6 +9,8 @@
    position: sticky;
    top: 0;
    z-index: 9999;
+   font-style: normal;
+
 }
 .title{
     font-weight: bolder;
@@ -36,9 +38,10 @@
 .phonecontainer{
     background-color: rgba(255,200,1,255);
   
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     border-radius: 100%;
+    overflow: hidden;
     
    
     
@@ -61,14 +64,26 @@
     width: 800px;
     height: auto;
     
-    
+    animation: updown 15s ease infinite;
 
 }
 .play{
     display: flex;
     
-    
-    
+   
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 .image{
@@ -105,6 +120,7 @@
     height: 160px;
     border-radius: 50px;
     padding-top: 10px;
+    overflow: hidden;
 }
 .flashContent{
     
@@ -159,7 +175,7 @@
     
 }
 .aroundbeef{
-    background-color: rgba(192,178,69,255);
+    background-color: rgba(255,218,85,255);
     border-radius: 100%;
     width: 650px;
     height: 750px;
@@ -181,7 +197,7 @@
     
 }
 .arounddrinks{
-    background-color: rgba(192,178,69,255);
+    background-color: rgba(255,218,85,255);
     border-radius: 100%;
     width: 250px;
     height: 250px;
@@ -229,12 +245,43 @@
 }
 .map{
     display: flex;
-    
+    padding-right: 10%;
 
 }
 .nairobi{
     height: auto;
     width: 70%;
+}
+.undermap{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    align-content: center;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.input{
+   border-top-color: transparent;
+   border-left-color: transparent;
+   border-right-color: transparent;
+   border-bottom-color: rgba(255,200,1,255);
+   width: 200px;
+   border-width: 2px;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 20px;
+}
+.button{
+    border-color: black;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 .advertise{
     height: 400px;
@@ -371,4 +418,16 @@
     justify-content: space-between;
     padding-left: 4%;
     padding-right: 4%;
+}
+.whitecontent{
+    width: 160px; 
+    height: 100px; 
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 100%;
+   
+    
+}
+.groceries{
+   margin-top: -90px;
 }
