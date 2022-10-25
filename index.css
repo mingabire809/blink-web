@@ -259,7 +259,116 @@
 }
 .process{
     background-color: rgba(255,200,1,255);
-    height: 600px;
+    height: 650px;
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.hand{
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+
+.process2{
+    width: 50%;
+}
+.why{
+    height: 200px;
+}
+.whycontent{
+
+    width: 90%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    align-items: center;
+}
+.whycontent:hover{
+    width: 95%;
+    
+    padding-top: 10px;
+    transition: 1s;
+}
+.icon{
+    width: 130px;
+    margin-left: 35%;
+}
+.advertisement2{
+   background-image: url('./assets/images/Component\ 48.png');
+   background-size: cover;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.contentleft{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.contentright{
+    margin-top: 100px;
+    margin-right: 10%;
+}
+.career{
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+.rider{
+    background-image: url('./assets/images/funny-black-delivery-man-riding-bicycle-studio-fast-service-overjoyed-african-american-courier-guy-red-cap-uniform-205466660.png');
+    background-size: cover;
+    width: 40%;
+}
+.careercontent{
+    background-color: black;
+    width: 60%;
+    
+		transform: skewX(0deg);
+       
+}
+.details{
+   margin-left: 17%;
+   margin-top: 12%;
+}
+.download{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-top: 50px;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.footer{
+    height: 500px;
+    background-color: rgba(255,200,1,255);
+   
+    
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.social{
+    width: 50px;
+    height: 50px;
+}
+.copyright{
+    background-color: rgba(223,176,0,225);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
 }
