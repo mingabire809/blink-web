@@ -16,6 +16,12 @@
     font-weight: bolder;
     font-size: 50px;
 }
+.option{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+}
 
 .menu{
     display: flex;
@@ -25,7 +31,8 @@
 .welcome{
     display: flex;
     justify-content: space-between;
-    padding: 70px;
+    padding-left: 70px;
+    padding-top: 70px;
     align-items: center;
     align-content: center;
    
@@ -33,6 +40,7 @@
 .animationphone{
     
     width: 50%;
+    overflow: hidden;
    
 }
 .phonecontainer{
@@ -41,7 +49,8 @@
     width: 100%;
     height: auto;
     border-radius: 100%;
-    overflow: hidden;
+
+   
     
    
     
@@ -126,20 +135,26 @@
     
     width: 100%;
     transition: 3s;
+    height: 450px;
+    background-image: url('./assets/images/Component\ 21.png');
+    background-size: cover;
     margin-bottom: 50px;
+   overflow: hidden;
+
     
 }
 .flashContent:hover{
-    height: 350px;
+    overflow: hidden;
     transition: 3s;
-    transform-origin: bottom;
+    padding-left: 10px;
+    padding-right: 10px;
     background-size: cover;
 }
 
 .advertisement{
     background-color: rgba(228,228,228,255);
-    height: 300px;
-    
+    height: 200px;
+    padding-top: 150px;
 }
 
 .fresh{
@@ -371,6 +386,7 @@
     height: 500px;
     display: flex;
     margin-top: 50px;
+    overflow: hidden;
 }
 .rider{
     background-image: url('./assets/images/funny-black-delivery-man-riding-bicycle-studio-fast-service-overjoyed-african-american-courier-guy-red-cap-uniform-205466660.png');
@@ -384,8 +400,23 @@
 		transform: skewX(0deg);
        
 }
+.careercontent::after{
+    width: 50%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    transform-origin: right;
+    transform: skewX(-10deg);
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: -44px;
+    
+    z-index: -1;
+}
+
 .details{
-   margin-left: 17%;
+   margin-left: 10px;
    margin-top: 12%;
    width: 700px;
 }
@@ -434,13 +465,13 @@
 .footer{
     height: 500px;
     background-color: rgba(255,200,1,255);
+    padding-top: 50px;
    
     
 }
 .footercontent{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-left: 4%;
     padding-right: 4%;
 }
