@@ -357,12 +357,15 @@
    
 }
 .contentleft{
-    margin-top: 100px;
-    margin-left: 10%;
+    margin-top: 60px;
+    margin-left: 7%;
+   
+    width: 200px;
 }
 .contentright{
-    margin-top: 100px;
-    margin-right: 10%;
+    margin-top: 60px;
+    margin-right: 7%;
+    width: 230px;
 }
 .career{
     height: 500px;
@@ -384,6 +387,40 @@
 .details{
    margin-left: 17%;
    margin-top: 12%;
+   width: 700px;
+}
+.first{
+    border-color: transparent;
+    margin-left: 20px; 
+    width: 200px; 
+    height: 50px;
+     border-radius: 10px;
+     background-color: rgba(255,200,1,255);
+     font-size: 30px;
+     color: gray;
+     cursor: pointer;
+     transition: 1s;
+     margin-right: 20px;
+}
+.first:hover{
+    margin-right: 0px;
+    transition: 1s;
+}
+.second{
+    background-color: white; 
+   border-color: transparent;
+    width: 200px; 
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+     color: gray;
+     cursor: pointer;
+     margin-right: 20px;
+     transition: 1s;
+}
+.second:hover{
+    margin-right: 40px;
+    transition: 1s;
 }
 .download{
     display: flex;
@@ -408,8 +445,8 @@
     padding-right: 4%;
 }
 .social{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .copyright{
     background-color: rgba(223,176,0,225);
@@ -430,4 +467,44 @@
 }
 .groceries{
    margin-top: -90px;
+}
+
+.button2{
+    background-color: rgba(228,228,228,255);
+    border-color: black;
+    border-width: 3px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button2:hover{
+    color: white;
+    background-color: black;
+}
+.belowfooter{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 65%;
+    margin-left: auto;
+    
+    
+}
+.inputfooter{
+    height: 40px;
+    width: 250px;
+    background: #ffffff;
+    opacity:0.65;
+    border-color: transparent;
+    font-size: 20px;
+}
+.button3{
+    background-color: black;
+    width: 50px;
+    border-color: transparent;
+    cursor: pointer;
+    color: white;
 }
