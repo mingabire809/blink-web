@@ -29,14 +29,14 @@ html *
 .option{
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    width: 15%;
     align-items: center;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
 }
 .welcome{
     display: flex;
