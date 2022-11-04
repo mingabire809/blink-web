@@ -5,6 +5,136 @@ html *
     font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (max-width: 414px) { 
+	div.header { 
+        width: 100%;
+	}
+    div.menu {
+        display: none;
+    }
+    div.welcome{
+        display: contents;
+    }
+    
+    div.option{
+        display: none; 
+    }
+    div.animationphone{
+    
+        width: 100%;
+        
+       
+    }
+    div.map{
+        display: contents;
+    }
+
+    div.footercontent{
+        display: contents;
+        
+    }
+    div.copyright{
+        display: contents;
+    }
+    div.updated{
+        display: contents;
+    }
+    div.text{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    div.footer{
+        display: none;
+    }
+    div.copyright{
+        display: none;
+    }
+    div.download{
+        display: none;
+    }
+    div.map{
+        display: none;
+    }
+    div.category{
+        display: none;
+    }
+    h1.categoryTitle{
+        display: none;
+    }
+    div.slideshow-container{
+        display: none;
+    }
+    div.slideshow-container1{
+        display: none;
+    }
+    div.delivery{
+        display: none;
+    }
+    div.advertisement{
+        display: none;
+    }
+    div.advertisement2{
+        display: none;
+    }
+    div.career{
+        display: none;
+    }
+    div.why{
+        display: none;
+    }
+    div.process{
+        display: none;
+    }
+    div.advertise{
+        display: none;
+    }
+    div.undermap{
+        display: none;
+    }
+    div.flashslider{
+        display: none;
+    }
+    div.text{
+        display: none;
+    }
+    div.animationphone{
+        margin-left: 10%;
+        margin-top: 40px;
+    }
+    div.phonecontainer{
+        display: block;
+    }
+    img.phone{
+        position: fixed;
+        right: -15px;
+    }
+    span.dot{
+        display: none;
+    }
+
+    
+
+
+    
+    
+} 
+
+@media only screen and (min-width: 414px) { 
+    div.play2{
+        display: none;
+    }
+}
+.play2{
+    display: flex;
+    margin-top: 130px;
+    width: 100%;
+    justify-content: space-between;
+}
+.image2{
+    width: 180px;
+    cursor: pointer;
+}
 
 .header{
     background-color: rgba(255,200,1,255);
@@ -20,6 +150,8 @@ html *
    margin-top: -10px;
    margin-left: -8px;
    margin-right: -8px;
+
+   
 
 }
 .title{
@@ -44,7 +176,7 @@ html *
     padding-left: 50px;
    padding-top: 10px;
    
-   
+   flex-wrap: wrap;
     max-height: 100vh;
    
 }
@@ -120,14 +252,15 @@ html *
 }
 .category{
     padding: 80px;
-    max-height: 90vh;
+    max-height: 70vh;
+    margin-bottom: 170px;
 }
 
 .categoryTitle{
     text-align: center;
     text-decoration: underline 5px rgba(255,200,1,255);
     font-size: 40px;
-    margin-bottom: 100px;
+    
     
 }
 
@@ -409,15 +542,15 @@ html *
    
 }
 .contentleft{
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 7%;
    
-    width: 200px;
+    width: 265px;
 }
 .contentright{
-    margin-top: 60px;
+    margin-top: 30px;
     margin-right: 7%;
-    width: 230px;
+    width: 270px;
 }
 .career{
     height: 500px;
@@ -774,3 +907,140 @@ a.slide__next{
     background-color: lightgray;
     margin: 0 10px 0 10px;
 }
+
+.updated{
+    display: flex;
+}
+
+.slideshow-container {
+    max-width: 100vw;
+    position: relative;
+   
+    margin-bottom: 20px;
+  }
+  .slideshow-container1 {
+    max-width: 100vw;
+    position: relative;
+   
+    margin-bottom: 20px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    
+    
+  }
+  .mySlides1 {
+    display: none;
+    
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+ 
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .fade1 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot1:hover {
+    background-color: #717171;
+  }
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot1:hover {
+    background-color: #717171;
+  }
