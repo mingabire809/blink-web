@@ -45,7 +45,7 @@ html *
    padding-top: 10px;
    
    
-    max-height: 90vh;
+    max-height: 100vh;
    
 }
 .animationphone{
@@ -57,11 +57,13 @@ html *
 .phonecontainer{
     background-color: rgba(255,200,1,255);
   
-    width: 80vh;
-    height: 80vh;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     text-align: center;
     margin-top: -20px;
+    
+    
 
    
     
@@ -83,10 +85,11 @@ html *
     margin-left: 50vh; 
 }
 .phone{
-    width: 650px;
+    width: 600px;
     height: auto;
-    margin-right: 450px;
-    animation: updown 15s ease infinite;
+    right: 15%;
+    position: absolute;
+    animation: updown 9s ease infinite;
 
 }
 .play{
@@ -117,6 +120,7 @@ html *
 }
 .category{
     padding: 80px;
+    max-height: 90vh;
 }
 
 .categoryTitle{
@@ -323,7 +327,7 @@ html *
 .button{
     border-color: black;
     background-color: transparent;
-    width: 150px;
+    width: 220px;
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
