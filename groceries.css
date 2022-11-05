@@ -1,0 +1,100 @@
+html *
+{
+   
+   
+   font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-color: rgba(255,200,1,255);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   padding-left: 5%;
+   padding-right: 5%;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 9999;
+   margin-top: -10px;
+   margin-left: -8px;
+   margin-right: -8px;
+
+}
+.title{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.category{
+    padding: 80px;
+    max-height: 70vh;
+    margin-bottom: 170px;
+}
+
+.categoryTitle{
+    text-align: center;
+    text-decoration: underline 5px rgba(255,200,1,255);
+    font-size: 40px;
+    
+    
+}
+
+.categoryelement{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.categorycontent{
+    background-color: rgba(255,200,1,255);
+    width: 160px;
+    height: 160px;
+    border-radius: 50px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.flashContent{
+    
+    width: 100%;
+    transition: 3s;
+    height: 100%;
+    background-image: url('./assets/images/Component\ 21.png');
+    background-size: cover;
+    margin-bottom: 50px;
+   overflow: hidden;
+
+    
+}
+.flashContent:hover{
+    overflow: hidden;
+    transition: 3s;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: cover;
+}
+
+.whitecontent{
+    width: 160px; 
+    height: 100px; 
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 100%;
+   
+    
+}
+.groceries{
+   margin-top: -90px;
+}

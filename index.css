@@ -7,7 +7,7 @@ html *
 
 @media only screen and (max-width: 414px) { 
 	div.header { 
-        width: 100%;
+        display: none;
 	}
     div.menu {
         display: none;
@@ -101,6 +101,7 @@ html *
     div.animationphone{
         margin-left: 10%;
         margin-top: 40px;
+        display: none;
     }
     div.phonecontainer{
         display: block;
@@ -110,6 +111,9 @@ html *
         right: -15px;
     }
     span.dot{
+        display: none;
+    }
+    div.slideshow-container2{
         display: none;
     }
 
@@ -130,6 +134,7 @@ html *
     margin-top: 130px;
     width: 100%;
     justify-content: space-between;
+    display: none;
 }
 .image2{
     width: 180px;
@@ -189,39 +194,42 @@ html *
 .phonecontainer{
     background-color: rgba(255,200,1,255);
   
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
     text-align: center;
     margin-top: -20px;
-    
-    
-
-   
-    
-   
-    
+    margin-left: 7%;
+  
 }
-.dot{
+.globalphone{
+    margin-top: 6vh;
+    margin-left: 5%;
+}
+.dotphone{
     background-color: rgba(255,200,1,255);
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
-    margin-right: auto;
+   
 }
 .seconddot{
     background-color: rgba(255,200,1,255);
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    margin-left: 50vh; 
+    margin-left: 70%;
 }
 .phone{
-    width: 600px;
-    height: auto;
-    right: 15%;
     position: absolute;
+    top: 0;
+    margin-top: 11%;
+    right: 0;
+    margin-right: 6vw;
+    height: auto;
     animation: updown 9s ease infinite;
+   
+   
 
 }
 .play{
@@ -282,7 +290,7 @@ html *
     
     width: 100%;
     transition: 3s;
-    height: 450px;
+    height: 100%;
     background-image: url('./assets/images/Component\ 21.png');
     background-size: cover;
     margin-bottom: 50px;
@@ -472,7 +480,7 @@ html *
     height: 400px;
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+   
 
 }
 .space1{
@@ -508,7 +516,7 @@ html *
     width: 50%;
 }
 .why{
-    height: 200px;
+    height: 250px;
 }
 .whycontent{
 
@@ -924,7 +932,18 @@ a.slide__next{
    
     margin-bottom: 20px;
   }
-  
+  .slideshow-container2 {
+    max-width: 100vw;
+    position: relative;
+   
+    margin-bottom: 20px;
+  }
+  .slideshow-container3 {
+    max-width: 100vw;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
   /* Hide the images by default */
   .mySlides {
     display: none;
@@ -936,6 +955,18 @@ a.slide__next{
     
     
   }
+  .mySlides2 {
+    display: none;
+    
+    
+  }
+
+  .mySlides3 {
+    display: none;
+    
+    
+  }
+  
   
   /* Next & previous buttons */
   .prev, .next {
@@ -987,12 +1018,70 @@ a.slide__next{
   .prev1:hover, .next1:hover {
     background-color: rgba(0,0,0,0.8);
   }
+  .prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .prev3, .next3 {
+    cursor: pointer;
+    position: absolute;
+    
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next3 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev3:hover, .next3:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
  
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
   .fade1 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .fade2 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .fade3 {
     animation-name: fade;
     animation-duration: 1.5s;
   }
@@ -1026,10 +1115,30 @@ a.slide__next{
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot1:hover {
-    background-color: #717171;
+
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
   }
+
+  .dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+ 
   .dot1 {
     cursor: pointer;
     height: 15px;
@@ -1041,6 +1150,27 @@ a.slide__next{
     transition: background-color 0.6s ease;
   }
   
+
+
+  .active, .dot2:hover {
+    background-color: #717171;
+  }
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
   .active, .dot1:hover {
+    background-color: #717171;
+  }
+  .active, .dot2:hover {
+    background-color: #717171;
+  }
+  .active, .dot3:hover {
     background-color: #717171;
   }
