@@ -10,11 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 
 <div class="header">
     <h1 class="title">Blink</h1>
+    <img src="./assets/images/Hamburger_icon.svg.png" width="40px" class="menu-mobile" onclick="myFunction()"/>
+    <div id="mobile-view">
+        <h4>Home</h4>
+        <h4>About</h4>
+        <h4>Contact</h4>
+        <h4>Login</h4>
+    </div>
     <div class="menu">
         <h1 style="text-decoration: underline; cursor: pointer;">Home</h1>
         <h1 style="cursor: pointer;">About</h1>
@@ -37,30 +45,42 @@
             
         </div>
     </div>
+    
+      <script>
+        function myFunction() {
+  var x = document.getElementsById('mobile-view');
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+      </script>
 </div>
 <body>
     <div class="welcome">
         
-        <div class="animationphone">
-            <div class="globalphone">
-                <div class="dotphone"></div>
-            <div class="phonecontainer">
-               
-            </div>
-            <img src="./assets/images/Phone Mockup.png" class="phone" width="630px"/>
-            <div class="seconddot"></div>
-        </div>
-            </div>
+        
             <div class="text">
-                <h1 style="font-size: 70px;" class="textcontent"><span class="data"></span> </h1>
-                <h1 style="font-size: 70px; margin-top: -50px;" class="textcontent">At your Door</h1>
-                <h1 style="color: rgba(255,200,1,255); font-size: 70px; margin-top: -50px;" class="textcontent">In 10 Minutes.</h1>
-                <h1 style="font-weight: 100; font-size: 40px;" class="textcontent">The future of supermarkets is here!</h1>
+                <h1 class="textcontent1"><span class="data"></span> </h1>
+                <h1 class="textcontent2">At your Door</h1>
+                <h1 class="textcontent3">In 10 Minutes.</h1>
+                <h1 class="textcontent4">The future of supermarkets is here!</h1>
                 <div class="play">
                     <img src="./assets/images/google.jpg" class="image"/>
                     <img src="./assets/images/appstore.jpg" class="image"/>
                 </div>
             </div>
+            <div class="animationphone">
+                <div class="globalphone">
+                    <div class="dotphone"></div>
+                <div class="phonecontainer">
+                   
+                </div>
+                <img src="./assets/images/Phone Mockup.png" class="phone" width="630px"/>
+                <div class="seconddot"></div>
+            </div>
+                </div>
             
         <div class="play2">
             <img src="./assets/images/google.jpg" class="image2"/>
@@ -118,10 +138,6 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">LPG Gas</h2>
             </div>
-           
-            
-        </div>
-        <div class="categoryelement">
             <div>
                 <div class="categorycontent">
                     <div class="whitecontent">
@@ -164,6 +180,11 @@
                 </div>
                 
             </div>
+           
+            
+        </div>
+        <div class="categoryelement">
+           
         </div>
     </div>
     
@@ -604,17 +625,20 @@ function showSlides3() {
     </div>
     <div class="advertisement2">
         <div class="contentleft">
-            <h1 style="font-size: 50px;">Advertise with us!</h1>
-            <h4>Advertise on our website and app</h4>
+            
+
+            <h1 style="font-size: 50px;">Build your brand with us!</h1>
+            <h4>Promote your products within the blink app, across our marketing channels, and through our store & rider network</h4>
             <button class="button2">More info</button>
         </div>
         
             
         
         <div class="contentright">
-            <h1 style="font-size: 50px;">Build your brand with us!</h1>
-            <h4>Promote your products within the blink app, across our marketing channels, and through our store & rider network</h4>
+            <h1 style="font-size: 50px;">Advertise with us!</h1>
+            <h4>Advertise on our website and app</h4>
             <button class="button2">More info</button>
+            
         </div>
     </div>
     <div class="career">
