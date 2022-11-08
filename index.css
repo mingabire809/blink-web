@@ -7,15 +7,20 @@ html *
 
 @media only screen and (max-width: 414px) { 
 	div.header { 
-        display: none;
+        width: 94%;
 	}
+    h1.title{
+        font-size: 25px;
+    }
     div.menu {
         display: none;
     }
     div.welcome{
         display: contents;
     }
-    
+    img.image{
+        width: 140px;
+    }
     div.option{
         display: none; 
     }
@@ -57,13 +62,31 @@ html *
         display: none;
     }
     div.category{
-        display: none;
+        padding: 0px;
+        
+        margin-bottom: 50px;
+    }
+    
+    div.categoryelement{
+        
+    }
+    img.flash1{
+        height: 200px;
+    }
+    h1.textcontent{
+        font-size: small;
+    }
+    div.slideshow-container2{
+        display: inherit;
     }
     h1.categoryTitle{
-        display: none;
+        font-size: 20px;
     }
     div.slideshow-container{
         display: none;
+    }
+    div.slideshow-container2{
+        
     }
     div.slideshow-container1{
         display: none;
@@ -96,25 +119,38 @@ html *
         display: none;
     }
     div.text{
-        display: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+    h1.textcontent{
+        font-size: 10px;
     }
     div.animationphone{
-        margin-left: 10%;
+        
         margin-top: 40px;
-        display: none;
+       
     }
+
     div.phonecontainer{
-        display: block;
+        width: 300px;
+        
     }
     img.phone{
-        position: fixed;
-        right: -15px;
+        position: inherit;
+        margin-top: -410px;
+        margin-left: -40%;
+        
+        
+        
+
+        
+       
     }
     span.dot{
         display: none;
     }
     div.slideshow-container2{
-        display: none;
+        
     }
 
     
@@ -225,7 +261,7 @@ html *
     top: 0;
     margin-top: 11%;
     right: 0;
-    margin-right: 6vw;
+    margin-right: 53vw;
     height: auto;
     animation: updown 9s ease infinite;
    
@@ -260,7 +296,7 @@ html *
 }
 .category{
     padding: 80px;
-    max-height: 70vh;
+    
     margin-bottom: 170px;
 }
 
@@ -276,6 +312,7 @@ html *
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+   
    
 }
 .categorycontent{

@@ -40,16 +40,7 @@
 </div>
 <body>
     <div class="welcome">
-        <div class="text">
-            <h1 style="font-size: 70px;"><span class="data"></span> </h1>
-            <h1 style="font-size: 70px; margin-top: -50px;">At your Door</h1>
-            <h1 style="color: rgba(255,200,1,255); font-size: 70px; margin-top: -50px;">In 10 Minutes.</h1>
-            <h1 style="font-weight: 100; font-size: 40px;">The future of supermarkets is here!</h1>
-            <div class="play">
-                <img src="./assets/images/google.jpg" class="image"/>
-                <img src="./assets/images/appstore.jpg" class="image"/>
-            </div>
-        </div>
+        
         <div class="animationphone">
             <div class="globalphone">
                 <div class="dotphone"></div>
@@ -59,6 +50,16 @@
             <img src="./assets/images/Phone Mockup.png" class="phone" width="630px"/>
             <div class="seconddot"></div>
         </div>
+            </div>
+            <div class="text">
+                <h1 style="font-size: 70px;" class="textcontent"><span class="data"></span> </h1>
+                <h1 style="font-size: 70px; margin-top: -50px;" class="textcontent">At your Door</h1>
+                <h1 style="color: rgba(255,200,1,255); font-size: 70px; margin-top: -50px;" class="textcontent">In 10 Minutes.</h1>
+                <h1 style="font-weight: 100; font-size: 40px;" class="textcontent">The future of supermarkets is here!</h1>
+                <div class="play">
+                    <img src="./assets/images/google.jpg" class="image"/>
+                    <img src="./assets/images/appstore.jpg" class="image"/>
+                </div>
             </div>
             
         <div class="play2">
@@ -170,17 +171,17 @@
         <div class="slideshow-container2">
             <div class="mySlides2 fade">
                 
-                <img src="./assets/images/Component 21.png" width="100%" height="370px"/>
+                <img src="./assets/images/Component 21.png" width="100%" height="370px" class="flash1"/>
 
             </div>
             <div class="mySlides2 fade">
             
-                <img src="./assets/images/4.png" width="100%" height="370px"/>
+                <img src="./assets/images/4.png" width="100%" height="370px" class="flash1"/>
 
             </div>
             <div class="mySlides2 fade">
             
-                <img src="./assets/images/5.png" width="100%" height="370px"/>
+                <img src="./assets/images/5.png" width="100%" height="370px" class="flash1"/>
 
             </div>
            
@@ -358,13 +359,13 @@
         </div>
         <script>
             
-             if (screen.width <= 699) {
-                if(navigator.platform.match(/iPhone|iPod|iPad/)){
-                    document.location = 'https://apps.apple.com/us/app/uber-driver-drive-deliver/id1131342792'
-                } else{
-    document.location = "https://play.google.com/store/apps/details?id=com.ubercab&hl=en&gl=US";
-                }
-  }
+            // if (screen.width <= 699) {
+            //    if(navigator.platform.match(/iPhone|iPod|iPad/)){
+            //        document.location = 'https://apps.apple.com/us/app/uber-driver-drive-deliver/id1131342792'
+            //    } else{
+    //document.location = "https://play.google.com/store/apps/details?id=com.ubercab&hl=en&gl=US";
+     //           }
+ // }
             const jstoggle = document.getElementById('imagebutton');
             jstoggle.addEventListener('click', () => {
         const animations = document.querySelectorAll('.deliveryarea');
