@@ -5,7 +5,7 @@ html *
     font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (max-width: 414px) { 
+@media only screen and (max-width: 900px) { 
 	div.header { 
         width: 94%;
 	}
@@ -183,8 +183,33 @@ html *
     
     
 } 
+@media only screen and (max-width: 900px) { 
+    img.phone{
+        position: inherit;
+        margin-top: -160px;
+        margin-left: -10%;
+        width: 260px;
+    
+    }
+    div.categoryelement{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+    img.phone{
+        position: inherit;
+        margin-top: -360px;
+        margin-left: -30%;
+        
+        
+    
+    }
+    div.categoryelement{
+        width: 100%;
+    }
+}
 
-@media only screen and (min-width: 415px) { 
+@media only screen and (min-width: 901px) { 
     div.play2{
         display: none;
     }
