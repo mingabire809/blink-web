@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     
 </head>
 
-<div class="header">
+<div class="container-fluid header">
     <h1 class="title">Blink</h1>
     <img src="./assets/images/Hamburger_icon.svg.png" width="40px" class="menu-mobile" onclick="myFunction()"/>
     <div id="mobile-view">
@@ -58,14 +59,15 @@
       </script>
 </div>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <div class="welcome">
         
         
             <div class="text">
-                <h1 class="textcontent1"><span class="data"></span> </h1>
-                <h1 class="textcontent2">At your Door</h1>
-                <h1 class="textcontent3">In 10 Minutes.</h1>
-                <h1 class="textcontent4">The future of supermarkets is here!</h1>
+                <h1 class="h1 textcontent1" style="font-size: 70px;"><span class="data"></span> </h1>
+                <h1 class="h1" style="font-size: 70px;">At your Door</h1>
+                <h1 class="h1" style="font-size: 70px;  color: rgba(255,200,1,255); ">In 10 Minutes.</h1>
+                <h1 class="h1" style="font-size: 40px;">The future of supermarkets is here!</h1>
                 <div class="play">
                     <img src="./assets/images/google.jpg" class="image"/>
                     <img src="./assets/images/appstore.jpg" class="image"/>
@@ -89,10 +91,10 @@
         
     </div>
 
-    <div class="category">
+    <div class="row align-items-start" style="width: 90%; margin-left: auto; margin-right: auto; margin-top: 50px">
         <h1 class="categoryTitle">Our Categories</h1>
-        <div class="categoryelement">
-            <div onclick="window.location.href='groceries.html'" style="cursor: pointer;">
+        <div class="row align-items-start">
+            <div onclick="window.location.href='groceries.html'" style="cursor: pointer;" class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-1542x931.png" width="170px" class="groceries"/>
@@ -102,7 +104,7 @@
             </div>
                 <h2 style="text-align: center; font-weight: 200;">groceries</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-1.png" width="150px" class="groceries"/>
@@ -111,7 +113,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">Electronics</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-2.png" width="170px" class="groceries"/>
@@ -120,7 +122,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">PharmApp</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-3.png" width="160px" class="groceries"/>
@@ -129,7 +131,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">Cosmetics</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-4.png" width="160px" class="groceries"/>
@@ -138,7 +140,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">LPG Gas</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-5.png" width="160px" class="groceries"/>
@@ -147,7 +149,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">BlinkCafe</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-6.png" width="170px" class="groceries"/>
@@ -156,7 +158,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">Last Mile Delivery</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-7.png" width="160px" class="groceries"/>
@@ -165,7 +167,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">Kitchen</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <div class="whitecontent">
                         <img src="./assets/images/toppng.com-grocery-png-8.png" width="160px" class="groceries"/>
@@ -174,7 +176,7 @@
                 </div>
                 <h2 style="text-align: center; font-weight: 200;">Catering</h2>
             </div>
-            <div>
+            <div class="col">
                 <div class="categorycontent">
                     <h2 style="text-align: center; font-weight: 600; font-size: 40px;">Weekly Offers!</h2>
                 </div>
@@ -188,50 +190,38 @@
         </div>
     </div>
     
-        <h1 class="categoryTitle">Flash Fridays</h1>
-        <div class="slideshow-container2">
-            <div class="mySlides2 fade">
-                
-                <img src="./assets/images/Component 21.png" width="100%" height="370px" class="flash1"/>
-
-            </div>
-            <div class="mySlides2 fade">
-            
-                <img src="./assets/images/4.png" width="100%" height="370px" class="flash1"/>
-
-            </div>
-            <div class="mySlides2 fade">
-            
-                <img src="./assets/images/5.png" width="100%" height="370px" class="flash1"/>
-
-            </div>
-           
-        </div>
+        
         
         
     
     
-    <div>
+    <div style="overflow: hidden;">
         <h1 class="categoryTitle">Fresh Court</h1>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-            <div style="display: flex; width: 97vw; justify-content: space-between; align-items: center; margin-left: auto;margin-right: auto; background-color: rgba(255,200,1,255); overflow: hidden;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <div style="display: flex; width: 100%; justify-content: space-between; align-items: center; margin-left: auto;margin-right: auto; background-color: rgba(255,200,1,255); overflow: hidden;">
                 <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
                 <div class="aroundbeef2">
                     <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" width="350px" style="margin-left: auto; margin-right: auto;"/>
                 </div>
                 </div>
             </div>
-            <div class="mySlides fade">
-            <div style="display: flex; width: 97vw; justify-content: space-between; align-items: center; margin-left: auto;margin-right: auto; background-color: wheat; overflow: hidden;">
+            <div class="carousel-item active">
+            <div style="display: flex; width: 100%; justify-content: space-between; align-items: center; margin-left: auto;margin-right: auto; background-color: wheat; overflow: hidden;">
                 <h1 style="text-align: center; font-size: 50px">Drinks & Beverage</h1>
                 <div class="aroundbeef2">
                     <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" width="350px" style="margin-left: auto; margin-right: auto;"/>
                 </div>
             </div>
             </div>
-            <div class="mySlides fade">
-            <div style="display: flex; width: 97vw; justify-content: space-between; align-items: center; margin-left: auto;margin-right: auto; background-color: rgba(255,200,1,255); overflow: hidden;">
+            <div class="carousel-item active">
+            <div style="display: flex; width: 100%; justify-content: space-between; align-items: center; margin-left: auto;margin-right: auto; background-color: rgba(255,200,1,255); overflow: hidden;">
                 <h1 style="text-align: center; font-size: 50px">Snacks</h1>
                 <div class="aroundbeef2">
                     <img src="./assets/images/Floating-burger-PNG-1.png" width="350px" style="margin-left: auto; margin-right: auto;"/>
@@ -240,132 +230,158 @@
             </div>
            
         </div>
-        <div style="text-align:center; margin-bottom: 20px;">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-          <div class="slideshow-container1">
-            <div class="mySlides1 fade1">
-                <div class="fresh">
-                    <div class="butchery" style="background-color: lightgray;">
-                        <div style="width: 50%;">
-                            <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
-                        </div>
-                        <div style="width: 50%;">
-                            <div class="aroundbeef">
-                                <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" class="beef"/>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+        <div style=" width: 100%; overflow:hidden">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin-top: 130px; margin-bottom: 130px; width: 100vw; ">
+                <div class="carousel-indicators" style="margin-top: 70px;">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                     
+                    <div class="carousel-item active" >
+                        <div class="fresh" >
+                            <div class="butchery" style="background-color: lightgray;">
+                                <div style="width: 50%;">
+                                    <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
+                                </div>
+                                <div style="width: 50%;">
+                                    <div class="aroundbeef">
+                                        <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" class="beef"/>
+                                    </div>
+                                </div>
+                                
+                                
                             </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div style="height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-between;">
-                        <div class="drinks" style="background-color: lightgray;">
-                            <div style="width: 50%;">
-                                <h1 style="text-align: center; font-size: 45px">Drinks & Beverage</h1>
-                            </div>
-                            <div style="width: 50%;">
-                                <div class="arounddrinks">
-                                    <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" class="juice"/>
+                            <div style="height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-between;">
+                                <div class="drinks" style="background-color: lightgray;">
+                                    <div style="width: 50%;">
+                                        <h1 style="text-align: center; font-size: 45px">Drinks & Beverage</h1>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <div class="arounddrinks">
+                                            <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" class="juice"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="snacks" style="background-color: lightgray;">
+                                    <div style="width: 50%;">
+                                        <h1 style="text-align: center; font-size: 45px">Snacks</h1>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <div class="arounddrinks">
+                                            <img src="./assets/images/Floating-burger-PNG-1.png" class="juice"/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="snacks" style="background-color: lightgray;">
-                            <div style="width: 50%;">
-                                <h1 style="text-align: center; font-size: 45px">Snacks</h1>
+                        
+                    </div>
+                    <div class="carousel-item active ">
+                        <div class="fresh">
+                            <div class="butchery" style="background-color: wheat">
+                                <div style="width: 50%;">
+                                    <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
+                                </div>
+                                <div style="width: 50%;">
+                                    <div class="aroundbeef">
+                                        <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" class="beef"/>
+                                    </div>
+                                </div>
+                                
+                                
                             </div>
-                            <div style="width: 50%;">
-                                <div class="arounddrinks">
-                                    <img src="./assets/images/Floating-burger-PNG-1.png" class="juice"/>
+                            <div style="height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-between;">
+                                <div class="drinks" style="background-color: wheat">
+                                    <div style="width: 50%;">
+                                        <h1 style="text-align: center; font-size: 45px">Drinks & Beverage</h1>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <div class="arounddrinks">
+                                            <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" class="juice"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="snacks" style="background-color: wheat">
+                                    <div style="width: 50%;">
+                                        <h1 style="text-align: center; font-size: 45px">Snacks</h1>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <div class="arounddrinks">
+                                            <img src="./assets/images/Floating-burger-PNG-1.png" class="juice"/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
-                </div>
-                
+                    <div class="carousel-item active">
+                        <div class="fresh">
+                            <div class="butchery">
+                                <div style="width: 50%;">
+                                    <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
+                                </div>
+                                <div style="width: 50%;">
+                                    <div class="aroundbeef">
+                                        <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" class="beef"/>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            <div style="height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-between;">
+                                <div class="drinks">
+                                    <div style="width: 50%;">
+                                        <h1 style="text-align: center; font-size: 45px">Drinks & Beverage</h1>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <div class="arounddrinks">
+                                            <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" class="juice"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="snacks">
+                                    <div style="width: 50%;">
+                                        <h1 style="text-align: center; font-size: 45px">Snacks</h1>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <div class="arounddrinks">
+                                            <img src="./assets/images/Floating-burger-PNG-1.png" class="juice"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                  </div>
+                 
             </div>
-            <div class="mySlides1 fade1">
-                <div class="fresh">
-                    <div class="butchery" style="background-color: wheat">
-                        <div style="width: 50%;">
-                            <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
-                        </div>
-                        <div style="width: 50%;">
-                            <div class="aroundbeef">
-                                <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" class="beef"/>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div style="height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-between;">
-                        <div class="drinks" style="background-color: wheat">
-                            <div style="width: 50%;">
-                                <h1 style="text-align: center; font-size: 45px">Drinks & Beverage</h1>
-                            </div>
-                            <div style="width: 50%;">
-                                <div class="arounddrinks">
-                                    <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" class="juice"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="snacks" style="background-color: wheat">
-                            <div style="width: 50%;">
-                                <h1 style="text-align: center; font-size: 45px">Snacks</h1>
-                            </div>
-                            <div style="width: 50%;">
-                                <div class="arounddrinks">
-                                    <img src="./assets/images/Floating-burger-PNG-1.png" class="juice"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="mySlides1 fade1">
-                <div class="fresh">
-                    <div class="butchery">
-                        <div style="width: 50%;">
-                            <h1 style="text-align: center; font-size: 50px">Butchery & Fishery</h1>
-                        </div>
-                        <div style="width: 50%;">
-                            <div class="aroundbeef">
-                                <img src="./assets/images/favpng_roast-beef-roasting-venison-food-meat.png" class="beef"/>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div style="height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-between;">
-                        <div class="drinks">
-                            <div style="width: 50%;">
-                                <h1 style="text-align: center; font-size: 45px">Drinks & Beverage</h1>
-                            </div>
-                            <div style="width: 50%;">
-                                <div class="arounddrinks">
-                                    <img src="./assets/images/Lovepik_com-401704182-mango-mango-juice.png" class="juice"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="snacks">
-                            <div style="width: 50%;">
-                                <h1 style="text-align: center; font-size: 45px">Snacks</h1>
-                            </div>
-                            <div style="width: 50%;">
-                                <div class="arounddrinks">
-                                    <img src="./assets/images/Floating-burger-PNG-1.png" class="juice"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            
-            
-          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+        
+          
         
     </div>
 
@@ -373,8 +389,8 @@
     
 
 
-    <div class="delivery">
-        <div style="display: flex; align-self: center;  width: 40%; margin-left: 35%;margin-top: 30px;">
+    <div class="delivery" style="height: 400px;">
+        <div style="display: flex; align-self: center;  width: 60%; margin-left: 35%;margin-top: 30px; align-items: center;">
         <h1 style="color: white; text-align: center;">Our Delivery Areas</h1>
         <img src="./assets/images/Layer 2.png" style="margin-left: 20px; height: 70px; width: 70px" id="imagebutton"/>
         </div>
@@ -464,25 +480,25 @@ function showSlides2() {
         <img src="./assets/images/Nairobi Map-01.png" class="nairobi"/>
         <div style="display: flex; justify-content: space-between; width: 30vw; margin-top: 150px;">
             <div>
-                <h2>1. Westlands</h2>
-                <h2 style="font-weight: lighter;">2. Dagoretti South</h2>
-                <h2 style="font-weight: lighter;">3. Lang'ata</h2>
-                <h2 style="font-weight: lighter;">4. Kibra</h2>
-                <h2 style="font-weight: lighter;">5. Dagoretti North</h2>
-                <h2 style="font-weight: lighter;">6. Starehe</h2>
-                <h2 style="font-weight: lighter;">7. Kamukunji</h2>
-                <h2 style="font-weight: lighter;">8. Mathare</h2>
-                <h2>9.Ruaraka</h2>
+                <h3 class="h3">1. Westlands</h2>
+                <h3 class="h3" style="font-weight: lighter;">2. Dagoretti South</h3>
+                <h3 class="h3" style="font-weight: lighter;">3. Lang'ata</h3>
+                <h3 class="h3" style="font-weight: lighter;">4. Kibra</h3>
+                <h3 class="h3" style="font-weight: lighter;">5. Dagoretti North</h3>
+                <h3 class="h3" style="font-weight: lighter;">6. Starehe</h3>
+                <h3 class="h3" style="font-weight: lighter;">7. Kamukunji</h3>
+                <h3 class="h3" style="font-weight: lighter;">8. Mathare</h3>
+                <h3 class="h3">9.Ruaraka</h2>
             </div>
             <div>
-                <h2 style="font-weight: lighter;">10. Roysambu</h2>
-                <h2 style="font-weight: lighter;">11. Embakasi North</h2>
-                <h2 style="font-weight: lighter;">12. Embakasi Central</h2>
-                <h2 style="font-weight: lighter;">13. Embakasi West</h2>
-                <h2 style="font-weight: lighter;">14. Kasarani</h2>
-                <h2 style="font-weight: lighter;">15. Embakasi East</h2>
-                <h2 style="font-weight: lighter;">16. Embakasi South</h2>
-                <h2 style="font-weight: lighter;">17. Makadara</h2>
+                <h3 class="h3" style="font-weight: lighter;">10. Roysambu</h3>
+                <h3 class="h3" style="font-weight: lighter;">11. Embakasi North</h3>
+                <h3 class="h3" style="font-weight: lighter;">12. Embakasi Central</h3>
+                <h3 class="h3" style="font-weight: lighter;">13. Embakasi West</h3>
+                <h3 class="h3" style="font-weight: lighter;">14. Kasarani</h3>
+                <h3 class="h3" style="font-weight: lighter;">15. Embakasi East</h3>
+                <h3 class="h3" style="font-weight: lighter;">16. Embakasi South</h3>
+                <h3 class="h3" style="font-weight: lighter;">17. Makadara</h3>
                 
             </div>
         </div>
@@ -493,8 +509,8 @@ function showSlides2() {
     </div>
     <div class="undermap">
         <div style=" width: 30%">
-            <h1 style="font-size: 45px; ">Let Us Know Where Blink Should Open Next</h1>
-            <h1 style="font-size: 25px; font-weight: 200; margin-top: -20px;">LETS VOTE</h1>
+            <h1 class="h1" style="font-size: 45px; ">Let Us Know Where Blink Should Open Next</h1>
+            <h1 class="h1" style="font-size: 25px; font-weight: 200; margin-top: -20px;">LETS VOTE</h1>
             
         </div>
         <div>
@@ -578,20 +594,20 @@ function showSlides3() {
     </script>
     
     <div class="process">
-        <div style="margin-left: 10%;margin-top:100px;
+        <div style="margin-left: 10%;margin-top:60px;
         width: 34%;
         ">
             <div>
-                <h1 style="font-size: 50px;">1. ORDER</h1>
-                <h1 style="margin-top: -40px;">Buy what you need from our app or site.</h1>
+                <h1 class="h1" style="font-size: 50px;">1. ORDER</h1>
+                <h1 class="h1">Buy what you need from our app or site.</h1>
             </div>
             <div>
-                <h1 style="font-size: 50px;">2. CHECKOUT</h1>
-                <h1 style="margin-top: -40px;">Complete your payment.</h1>
+                <h1 class="h1" style="font-size: 50px;">2. CHECKOUT</h1>
+                <h1 class="h1" >Complete your payment.</h1>
             </div>
             <div>
-                <h1 style="font-size: 50px;">3. WAIT</h1>
-                <h1 style="margin-top: -40px;">Our legendary riders will be at your door step in 10 mins.</h1>
+                <h1 class="h1" style="font-size: 50px;">3. WAIT</h1>
+                <h1 class="h1" >Our legendary riders will be at your door step in 10 mins.</h1>
             </div>
         </div>
         <div class="process2">
@@ -607,18 +623,18 @@ function showSlides3() {
             <div class="whycontent">
                 <div style="width: 28%;">
                     <img src="./assets/images/Icons-1.png" class="icon"/>
-                    <h2 style="text-align: center;">Supermarket Prices</h2>
-                    <h3 style="text-align: center; font-weight: 400;">Over 3,000 items direct to your doorstep at normal supermarket prices</h3>
+                    <h4 class="h4" style="text-align: center;">Supermarket Prices</h4>
+                    <h6 class="h6" style="text-align: center; font-weight: 400;">Over 3,000 items direct to your doorstep at normal supermarket prices</h6>
                 </div>
-                <div style="width: 28%;">
+                <div style="width: 28%; margin-top: 30px;">
                     <img src="./assets/images/Icons-2.png" class="icon"/>
-                    <h2 style="text-align: center; margin-top: 40px;">Ultrafast Delivery</h2>
-                    <h3 style="text-align: center;font-weight: 400;">Timing is everything! We will be at our doorstep before you know it.</h3>
+                    <h4 class="h4" style="text-align: center;">Ultrafast Delivery</h4>
+                    <h6 class="h6" style="text-align: center;font-weight: 400;">Timing is everything! We will be at our doorstep before you know it.</h6>
                 </div>
                 <div style="width: 28%;">
                     <img src="./assets/images/Icons-3.png" class="icon"/>
-                    <h2 style="text-align: center;">Environmental Friendly</h2>
-                    <h3 style="text-align: center;font-weight: 400;">Our decisions and goals towards becoming carbon negative</h3>
+                    <h4 class="h4"style="text-align: center;">Environmental Friendly</h4>
+                    <h6 class="h6" style="text-align: center;font-weight: 400;">Our decisions and goals towards becoming carbon negative</h6>
                 </div>
             </div>
         </div>
@@ -673,9 +689,9 @@ function showSlides3() {
     </div>
     <div class="download">
         <div style=" margin-left: 8%; margin-right: 30px;">
-            <h1 style="font-size: 55px;">Download Blink App Now</h1>
-            <h1 style="margin-top: -20px;">The future of supermarkets is here.</h1>
-            <h1 style="margin-top: -20px;">Download now and start shopping!</h1>
+            <h1 class="h1" style="font-size: 55px;">Download Blink App Now</h1>
+            <h1 class="h1">The future of supermarkets is here.</h1>
+            <h1 class="h1" >Download now and start shopping!</h1>
             <div class="play">
                 <img src="./assets/images/google.jpg" class="image"/>
                 <img src="./assets/images/appstore.jpg" class="image"/>
@@ -689,40 +705,40 @@ function showSlides3() {
     <div class="footer">
         <div class="footercontent">
             <div>
-                <h1 style="font-size: 40px;">Blink</h1>
+                <h1 class="h1" style="font-size: 40px;">Blink</h1>
             </div>
             <div>
-                <h1>Quick Links</h1>
-                <h3>FAQ</h3>
-                <h3>About Us</h3>
-                <h3>Help</h3>
-                <h3>My account</h3>
-                <h3>Contacts</h3>
+                <h1 class="h1">Quick Links</h1>
+                <h3 class="h3">FAQ</h3>
+                <h3 class="h3">About Us</h3>
+                <h3 class="h3">Help</h3>
+                <h3 class="h3">My account</h3>
+                <h3 class="h3">Contacts</h3>
                 
                 </div>
             
             <div>
-                <h1>Categories</h1>
-                <h3>Top Categories</h3>
-                <h3>Best Rated</h3>
-                <h3>Best Price</h3>
-                <h3>Latest Additions</h3>
+                <h1 class="h1">Categories</h1>
+                <h3 class="h3">Top Categories</h3>
+                <h3 class="h3">Best Rated</h3>
+                <h3 class="h3">Best Price</h3>
+                <h3 class="h3">Latest Additions</h3>
                 
                 
             </div>
             <div>
-                <h1>Contacts</h1>
-                <h3>Dar es salaam Rd</h3>
-                <h3>Nairobi</h3>
-                <h3>+2547 891 234 567</h3>
-                <h3>info@domain.com</h3>
+                <h1 class="h1">Contacts</h1>
+                <h3 class="h3">Dar es salaam Rd</h3>
+                <h3 class="h3">Nairobi</h3>
+                <h3 class="h3">+2547 891 234 567</h3>
+                <h3 class="h3">info@domain.com</h3>
                 
                 
             </div>
         </div>
         <div class="belowfooter">
             <div>
-                <h1>Stay updated</h1>
+                <h1 class="h1">Stay updated</h1>
                 <div class="updated">
                     <input type="text" placeholder="your email" class="inputfooter"/>
                     <button class="button3"><img src="./assets/images/87-877089_right-arrow-arrow-icon-white-png-transparent-png-removebg-preview.png" width="20px"/></button></div>
@@ -748,12 +764,12 @@ function showSlides3() {
     </div>
     <div class="copyright">
         <div style="display: flex; align-items: center;">
-            <h2 style="font-weight: 300;">Terms and Conditions | Privacy | </h2>
+            <h3 class="h3" style="font-weight: 300;">Terms and Conditions | Privacy | </h3>
             <img src="./assets/images/c.png" width="20px" height="20px" style="margin-left: 5px;margin-right: 5px;"/>
-            <h2 style="font-weight: 300;">Blink</h2>
+            <h3 class="h3" style="font-weight: 300;">Blink</h3>
         </div>
 
-        <h2 style="font-weight: 300;">Design Crafted By <span style="font-weight: 900;">Vesen Computing</span></h2>
+        <h3 class="h3" style="font-weight: 300;margin-top: 8px;">Design Crafted By <span style="font-weight: 900;margin-top: 10px;">Vesen Computing</span></h3>
         
     </div>
     

@@ -762,9 +762,9 @@ html *
    
 }
 .footer{
-    height: 320px;
+    height: 370px;
     background-color: rgba(255,200,1,255);
-    padding-bottom:65px;
+    padding-bottom:0px;
    margin-left: -8px;
    margin-right: -8px;
    
@@ -787,7 +787,7 @@ html *
     justify-content: space-between;
     padding-left: 4%;
     padding-right: 4%;
-    margin-bottom: -10px;
+   
    margin-left: -8px;
    margin-right: -8px;
 }
@@ -825,7 +825,8 @@ html *
     align-items: center;
     width: 65%;
     margin-left: auto;
-    margin-top: -30px;
+   
+    
     
     
 }
