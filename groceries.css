@@ -11,6 +11,9 @@ html *
     align-items: center;
     
 }
+h1.title{
+  font-size: 25px;
+}
 div.option{
   display: none;
 }
@@ -22,6 +25,24 @@ div.welcome{
 }
 div.welcome2{
   margin-top: 30px;
+}
+div.singlecategory{
+  width: 50%;
+  
+}
+div.categorycontent{
+ 
+  width: 100%;
+}
+h1.categoryTitle{
+  font-size: 20px;
+}
+div.foodCounter{
+  width: 50%;
+  height: 160px;
+}
+div.popular{
+  height: 130px;
 }
 }
 @media only screen and (min-width: 715px) { 
@@ -44,9 +65,8 @@ div.welcome2{
    position: sticky;
    top: 0;
    z-index: 9999;
-   margin-top: -10px;
-   margin-left: -8px;
-   margin-right: -8px;
+   
+   width: 100%;
 
 }
 .title{
@@ -93,6 +113,9 @@ div.welcome2{
     border-radius: 50px;
     padding-top: 10px;
     overflow: hidden;
+}
+.singlecategory{
+  
 }
 .flashContent{
     

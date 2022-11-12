@@ -87,6 +87,14 @@ html *
         
         margin-bottom: 50px;
     }
+    div.singlecategory{
+        width: 50%;
+        
+      }
+      div.categorycontent{
+ 
+        width: 100%;
+      }
     
     div.categoryelement{
         width: 100%;
