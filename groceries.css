@@ -4,6 +4,34 @@ html *
    
    font-family: 'Montserrat', sans-serif;
 }
+@media only screen and (max-width: 714px) { 
+ 
+  div.option2{
+    display: flex;
+    align-items: center;
+    
+}
+div.option{
+  display: none;
+}
+div.menu{
+  display: none;
+}
+div.welcome{
+  display: none;
+}
+div.welcome2{
+  margin-top: 30px;
+}
+}
+@media only screen and (min-width: 715px) { 
+  div.option2{
+    display: none;
+  }
+  div.welcome2{
+    display: none;
+  }
+}
 
 .header{
     background-color: rgba(255,200,1,255);
@@ -212,4 +240,20 @@ html *
   
   .active, .dot1:hover {
     background-color: #717171;
+  }
+
+  .foodCounter{
+    width: 323px;
+    height: 272px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+
+  .popular{
+    width: 95%;
+    height: 190px;
+    margin-right: auto;
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin-top: 40px;
   }

@@ -5,15 +5,22 @@ html *
     font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (max-width: 900px) { 
+@media only screen and (max-width: 714px) { 
 	div.header { 
-        width: 94%;
+        height: 70px;
+        margin-bottom: 90px;
+        width: 100%;
 	}
     h1.title{
         font-size: 25px;
     }
     div.menu {
         display: none;
+    }
+    div.option2{
+        display: flex;
+        align-items: center;
+        
     }
     div.welcome{
         padding-left: 0px;
@@ -24,6 +31,15 @@ html *
          
         
     }
+    div.text{
+        display: none;
+    }
+    div.fresh1{
+        display: none;
+    }
+    div.fresh2{
+        display: none;
+    }
     img.image{
         width: 100px;
     }
@@ -33,19 +49,22 @@ html *
     div.animationphone{
     
         width: 100%;
+        display: none;
         
        
     }
     div.map{
-        display: contents;
+        display: none;
     }
+    
 
     div.footercontent{
         display: contents;
         
     }
     div.copyright{
-        display: contents;
+        display: none;
+
     }
     div.updated{
         display: contents;
@@ -160,6 +179,12 @@ html *
         width: 260px;
     
     }
+    img.phone2{
+        
+        width: 380px;
+        animation: updown 9s ease infinite;
+    
+    }
     div.dotphone{
         width: 25px;
         height: 25px;
@@ -183,43 +208,15 @@ html *
     
     
 } 
-@media only screen and (max-width: 900px) { 
-    img.phone{
-        position: inherit;
-        margin-top: -160px;
-        margin-left: -10%;
-        width: 260px;
-    
+@media only screen and (min-width: 715px) { 
+    div.text2{
+        display: none;
     }
-    div.categoryelement{
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 1024px) { 
-    img.phone{
-        position: inherit;
-        margin-top: -360px;
-        margin-left: -30%;
-        
-        
-    
-    }
-    div.categoryelement{
-        width: 100%;
+    div.option2{
+        display: none;
     }
 }
 
-@media only screen and (min-width: 901px) { 
-    div.play2{
-        display: none;
-    }
-    img.menu-mobile{
-        display: none;
-    }
-    div.mobile-view{
-        display: none;
-    }
-}
 #mobile-view{
     background-color: lightgray;
     position: fixed;
